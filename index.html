@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Olara</title>
+  </head>
+  <body>
+    <section class="loginsection">
+      <div class="lefthanding">
+        <div><img src="assets/logo.png" alt="" /></div>
+        <div class="signinsection">
+          <div><p style="font-size: 48px; font-weight: 700">Sign In</p></div>
+          <div>
+            <p style="color: #718096;padding-bottom: 30px;">
+              Don’t have an account?
+              <a href="" style="color: #1c4532">Create now</a>
+            </p>
+          </div>
+          <div>
+            <form id="loginForm">
+              <label for="email" style="color: #718096;">E-mail</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                style="
+                  width: 518px;
+                  height: 40px;
+                  border-radius: 12px;
+                  border: 1px solid #cbd5e0;
+                  background: #f7fafc;
+                  margin-top: 7px;
+                  padding-left: 10px;
+                "
+              /><br /><br />
+
+              <label for="password" style="color: #718096">Password</label
+              ><br />
+              <input
+                type="password"
+                id="password"
+                name="password"
+                required
+                style="
+                  width: 518px;
+                  height: 40px;
+                  border-radius: 12px;
+                  border: 1px solid #cbd5e0;
+                  background: #f7fafc;
+                  margin-top: 7px;
+                  padding-left: 10px;
+                "
+              /><br /><br />
+
+              <div
+                style="
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                "
+              >
+                <div>
+                  <input type="checkbox" id="rememberMe" name="rememberMe" />
+                  <label for="rememberMe" style="color: #718096"
+                    >Remember me</label
+                  >
+                </div>
+
+                <div>
+                  <a href="/forgot-password" style="color: #1c4532"
+                    >Forgot Password?</a
+                  >
+                </div>
+              </div>
+
+              <button
+                class="signinbutton"
+                type="submit"
+                style="
+                  width: 528px;
+                  font-size: 20px;
+                  background: #1c4532;
+                  color: white;
+                  border: none;
+                  margin-top: 20px;
+                  border-radius: 20px;
+                  height: 60px;
+                  cursor: pointer;
+                "
+              >
+                Sign in
+              </button>
+            </form>
+            <div
+              style="
+                display: flex;
+                align-items: center;
+                text-align: center;
+                margin-block: 40px;
+              "
+            >
+              <hr
+                style="
+                  flex-grow: 1;
+                  border: none;
+                  border-top: 1px solid #ccc;
+                  margin: 0 10px;
+                "
+              />
+              <span style="color: #999; white-space: nowrap">OR</span>
+              <hr
+                style="
+                  flex-grow: 1;
+                  border: none;
+                  border-top: 1px solid #ccc;
+                  margin: 0 10px;
+                "
+              />
+            </div>
+            <div>
+              <div
+                class="googlew"
+                style="
+                  cursor: pointer;
+                  color: #555c6b;
+                  display: flex;
+                  flex-direction: row;
+                  text-align: center;
+                  align-items: center;
+                  border: 1px solid #cbd5e0;
+                  width: 508px;
+                  padding-left: 20px;
+                  margin-bottom: 10px;
+                  border-radius: 20px;
+                "
+              >
+                <img
+                  src="assets/google.png"
+                  alt=""
+                  style="height: 25px; width: 25px"
+                />
+                <p style="padding-inline: 140px">Continue with Google</p>
+              </div>
+              <div
+                class="facebookw"
+                style="
+                  cursor: pointer;
+                  color: #555c6b;
+                  display: flex;
+                  flex-direction: row;
+                  text-align: center;
+                  align-items: center;
+                  border: 1px solid #cbd5e0;
+                  width: 508px;
+                  padding-left: 20px;
+                  border-radius: 20px;
+                "
+              >
+                <img
+                  src="assets/facebook.png"
+                  alt=""
+                  style="height: 25px; width: 25px"
+                />
+                <p style="padding-inline: 120px">Continue with Facebook</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="righthanding"></div>
+    </section>
+  </body>
+</html>

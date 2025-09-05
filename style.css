@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+}
+.loginsection {
+    display: flex;
+    justify-content: space-around;
+}
+
+.righthanding {
+    background: #1C4532;
+    height: 900px;
+    width: 766px;
+    margin-top: 20px;
+    
+}
+
+.lefthanding {
+    margin-top:50px;
+    padding-inline: 20px;
+}
+.signinsection {
+    padding-left: 65px;
+}
+
+@media screen and (max-width:700px) {
+    .righthanding {
+        display: none;
+    }
+    .signinsection {
+        padding-left: 0;
+    }
+    #email {
+        width: 308px !important;
+    }
+    #password {
+        width: 308px !important;
+    }
+    .signinbutton {
+        width: 308px !important;
+    }
+    .googlew {
+        width: 308px !important;
+        
+    }
+    .googlew p {
+        padding-inline: 40px !important;
+    }
+    .facebookw {
+        width: 308px !important;
+        
+    }
+    .facebookw p {
+        padding-inline: 30px !important;
+    }
+}
